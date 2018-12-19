@@ -1,12 +1,11 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "name": "Shopping Cart",
   "manifest_version": 2,
-  "name": "__MSG_appName__",
-  "description": "__MSG_appDesc__",
+  "description": "Buy item from another site",
   "default_locale": "en",
-
   "browser_action": {
-    "default_title": "React Chrome Extension Example",
+    "default_title": "ABC Shooping Card",
     "default_popup": "popup.html"
   },
   "icons": {

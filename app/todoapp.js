@@ -14,6 +14,7 @@ import { language, messages } from '../chrome/extension/common/i18n';
 
 import Root from './containers/Root';
 import './todoapp.css';
+import "./antd.min.css";
 
 addLocaleData([...en, ...ko]);
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TodoItem from './TodoItem';
 import Footer from './Footer';
+import Login from './Login';
 import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from '../constants/TodoFilters';
 import style from './MainSection.css';
 
@@ -77,6 +78,7 @@ export default class MainSection extends Component {
 
     return (
       <section className={style.main}>
+        <Login />
         {this.renderToggleAll(completedCount)}
         <ul className={style.todoList}>
           {filteredTodos.map(todo => <TodoItem key={todo.id} todo={todo} {...actions} />)}
